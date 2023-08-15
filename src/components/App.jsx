@@ -47,8 +47,8 @@ const addContact = (newContact) => {
   };
 
  
-  const handleFilterChange = (value) => {
-    setFilter(value)
+  const handleFilterChange = (event) => {
+    setFilter(event.target.value)
   };
 
   
